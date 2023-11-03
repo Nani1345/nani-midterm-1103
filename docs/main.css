@@ -1,0 +1,192 @@
+h1{
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 700;
+    color: #000000;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+}
+
+
+header {
+    max-width: 1440px;
+    height: 120px;
+    background: #DCF8ED;
+   
+}
+
+.menu-item {
+    font-family: 'Roboto', sans-serif; 
+    color: #000000;
+    text-decoration: none;
+    margin-top: 38px;
+    font-weight: 700;
+}
+
+
+.menu {
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-basis: 40%;
+    gap: 30px; 
+   
+}
+
+
+.menu-item.menu-item-first {
+    margin-left: 68px;
+    margin-right: 700px;
+    display: flex;
+   
+}
+
+.menu-item.menu-item-last {
+    margin-right: 68px;
+}
+
+.hero{
+    background: url(../images/face.png) no-repeat;
+    background-position: right;
+    /* background-size: contain; */
+    background-size: 350px;
+    display:flex;
+    align-items: center;
+    margin-top:100px;  
+    margin-right: 68px; 
+}
+
+.hero h1{
+    margin-left:68px;
+}
+
+.sub-text{
+    width: 800px;
+    word-wrap: break-word;
+    margin-top:0;
+    margin-left:68px;
+} 
+
+a.pill-link{
+    display: inline-block;
+    padding:10px 20px;
+    border-radius: 25px;
+    background-color: #4A8B73;;
+    color:#fff;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left:68px;
+}
+
+.project {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-left: 68px;
+    margin-right: 68px;
+    margin-top: 100px;
+}
+
+.project1-text{
+    width: 496px;
+}
+
+.project2-text{
+    width: 496px;
+}
+
+
+@media  screen and (max-width: 1024px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+    }
+
+    .hero h1{
+        font-size:calc(var(--h1-font-size) + 0.75);
+    }
+
+    .sub-text{
+        width: 80%;
+    }
+
+    
+  
+}
+
+@media screen and (max-width:768px){
+    .menu{
+        flex-direction:column;
+        align-items:center;
+        gap:5px;
+        margin-top: 0px;
+    }
+
+    .hero{
+        background-image:none;
+    }
+
+    .hero h1{
+        font-size: 64;
+    }
+
+    .sub-text{
+        width:90%
+    }
+
+    .hero-section.clip,
+    .hero-section.task{
+        background-image:none
+    }
+
+    .testimonial-cards{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .testimonial{
+        margin-top:5rem;
+        flex-basis: 100%
+    }
+}
+
+
+.menu-item.menu-item-first {
+    margin-right: 300px;
+   
+}
+
+
+
+.menu-item {
+    flex: 1; 
+}
+
+@media screen and (max-width:480px){
+    main{
+        padding:0 20px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .sub-text{
+        width:100%;
+    }
+
+    .menu-item.menu-item-first {
+        margin-right: 5000px;
+       
+    }
+}

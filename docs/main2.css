@@ -1,0 +1,346 @@
+h2{font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu-item {
+    font-family: 'Roboto', sans-serif; 
+    color: #000000;
+    text-decoration: none;
+    margin-top: 38px;
+    gap:70px;
+    
+}
+.sidebar{
+    width: 120px;
+    height: 550px;
+    background: #DCF8ED;
+    flex-direction: row-reverse;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none; 
+}
+.sidebar li {
+    margin-bottom: 70px; /* 设置列表项目之间的垂直间距 */
+}
+
+.menu-item.menu-item-first{
+    margin-top:119px;
+}
+
+
+.content{
+    background: url(../images/face.png) no-repeat;
+    background-position: left;
+    /* background-size: contain; */
+    display:flex;
+    align-items: center;
+   margin-left:68px;  
+   margin-right:100px;
+}
+
+.skill-section h2{
+    margin-left: 68px;
+}
+
+.skill-icon img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+} 
+
+
+
+.feached h2{
+margin-left:300px;
+}
+
+.feached p{
+    margin-left:350px;
+}
+
+.social-icon{
+    margin-left:350px;
+}
+
+.skill-icon{
+    margin-left: 100px;
+}
+
+.project1{
+    margin-left: 68px;
+    margin-right: 150px;
+}
+
+.project1-content{
+    display:flex;
+    align-items: center;
+    justify-content: space between;
+}
+
+.project2{
+    margin-left: 68px;
+    margin-right: 150px;
+}
+
+.contact{
+    margin-left: 68px;
+    margin-right:150px
+
+}
+
+
+
+.contact-section{
+    display:flex;
+    /* align-items: center; */
+    justify-content: space-between
+}
+
+.newsletter-form input[type="email"] {
+    width: 500px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #4A8B73;
+    background: #FFF;
+}
+
+.submit-button {
+    
+    
+    color: #fff; 
+    
+    width: 200px;
+    height:83px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: #4A8B73;
+}
+
+
+
+.contact-image {
+    width: 200px; 
+    height: 200px; 
+    position: relative; 
+    margin-right: 20px;
+   
+}
+
+.contact-content{
+    position: relative; 
+    margin-right: 100px;
+}
+
+.newsletter-form {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.submit-button {
+    margin-top: 10px; 
+}
+
+
+footer{
+    width: 1440px;
+height: 319px;
+
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: Roboto;
+    background: #DCF8ED;
+}
+
+.column1{
+    margin-left: 68px;
+    font-family: 'Roboto', sans-serif; 
+    color: #000000;
+    text-decoration: none;
+}
+
+.column1 a{  
+   
+   
+  
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.column2{
+    margin-right: 200px;
+    font-family: 'Roboto', sans-serif; 
+    /* color: #000000;
+    text-decoration: none; */
+}
+
+
+.column2 a{  
+    margin-left:0;
+    flex:1;
+    display: flex;
+    flex-direction:column;
+    gap:20px; 
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+
+
+.column p{
+    margin-left:180px;
+    font-size: 22px;
+    font-family: Outfit;
+} 
+
+.icon {
+    display:flex; 
+    justify-content: center; 
+    align-items:center; 
+    gap: 20px; 
+    margin-right: 150px;
+    margin-top:200px;
+}
+
+.icon img {
+    width: 50px; 
+    height: 50px; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    .sidebar {
+        width: 100%; 
+        height: auto; 
+        position: static; 
+    }
+    .sidebar ul {
+        text-align: center; 
+    }
+    .sidebar li {
+        margin-bottom: 20px; 
+    }
+    .menu-item.menu-item-first {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .content {
+        margin: 0; 
+        background: none; 
+        align-items: flex-start; 
+    }
+    .skill-section h2 {
+        margin: 0; 
+    }
+    .skill-icon img {
+        width: 50px; 
+        height: 50px;
+        margin: 10px; 
+    }
+    .feached h2,
+    .feached p,
+    .social-icon,
+    .project1,
+    .project2,
+    .contact,
+    .contact-section {
+        margin: 20px 0; 
+    }
+    .newsletter-form input[type="email"] {
+        width: 100%; 
+    }
+    .submit-button {
+        width: 100%; 
+    }
+    .contact-image {
+        width: 100%; 
+        height: auto; 
+        margin-right: 0; 
+    }
+    .contact-content {
+        margin-right: 0; 
+    }
+    .newsletter-form {
+        flex-direction: column; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+    .column1,
+    .column2 {
+        margin: 0; 
+        text-align: center; 
+    }
+    .column2 a {
+        margin-left: 0; 
+    }
+    .icon {
+        margin: 20px 0; 
+    }
+    .icon img {
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project2-sub-text2 {
+        display: none;
+    }
+}

@@ -1,26 +1,18 @@
-# My Project
 
-Individual Project Videos - Work in Progress
 
-1. [Part 1 - NPM Setup, Playwright Setup, and Project Management with GitHub Issues.](https://youtu.be/Lkc1B5KZZfM)
-2. [Part 2 - Playwright Tests, Git Stash, and Playwright Video](https://youtu.be/V-Cf-lwtZ58)
-3. [Part 3 - Mid-term Golden Ratio Design Prep](https://youtu.be/Oy3tpy6100Y)
-4. [Part 4 - Mid-Term Lighthouse review and Design Informatino as well as Grading procedure](https://youtu.be/ObWBlUWgvXo)
-5. [Part 5 - Mid-Term UX Research and Design and Overview of Requirments](https://youtu.be/-1vCv0qli6o)
 
-## Install Instructions
 
-1.  Git Clone
-2.  run: npm install after you clone
+figma porfolio screenshot
+![image](./portfolio.png)
 
-## Test Instruction
-This project uses Playwright for automated testing and you can find more info about playwright [here](https://playwright.dev/docs/intro).
+My Figma Project - 
+https://www.figma.com/proto/zdvHG3Abqqt2mcHAShyULf/Untitled?type=design&node-id=1-194&t=hONBVMmBBpo941oO-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A216
 
-* npm run test or npx playwright test
 
-## Managing the Local Development Server
-You will need to start the local development server with the following command:
+GitHub Pages  - 
+file:///Users/na/Desktop/IS601-assignment/nani-midterm-1103/docs/index.html
+file:///Users/na/Desktop/IS601-assignment/nani-midterm-1103/docs/index2.html
 
-* Run the webserver "npm run start" will run "node index.js" 
 
-Once the server starts then open your web browser to localhost:3000 to view the web page.
+Github reporsitory-https://github.com/Nani1345/nani-midterm-1103.git
+
