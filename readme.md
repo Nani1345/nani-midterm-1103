@@ -3,7 +3,6 @@
 
 
 figma porfolio screenshot
-![image](./docs/images/portfolio.png)
 ![image](./docs/images/portfolio1.png)
 ![image](./docs/images/portfolio2.png)
 
