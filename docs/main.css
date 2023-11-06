@@ -18,8 +18,9 @@ header {
     max-width: 1440px;
     height: 120px;
     background: #DCF8ED;
-    
-   
+    position: fixed;
+    top: 0; 
+    width: 100%; 
 }
 
 .menu-item {
@@ -36,7 +37,7 @@ header {
     /* justify-content: flex-end; */
     flex-basis: 40%;
     gap: 30px; 
-  
+   
 }
 
 

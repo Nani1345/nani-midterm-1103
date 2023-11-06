@@ -47,7 +47,7 @@ p{
     list-style: none; 
 }
 .sidebar li {
-    margin-bottom: 70px; /* 设置列表项目之间的垂直间距 */
+    margin-bottom: 70px; 
 }
 
 .menu-item.menu-item-first{
