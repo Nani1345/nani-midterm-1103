@@ -193,7 +193,6 @@ a.pill-link{
 
 @media screen and (max-width: 768px) {
     .project {
-        .project {
             display: flex;
             flex-direction: column; /* 在移动设备上切换为垂直布局 */
             align-items: center; /* 水平居中 */
@@ -201,7 +200,6 @@ a.pill-link{
             margin-left: 68px;
             margin-right: 68px;
             margin-top: 100px;
-        }
         
         .project1, .project2 {
             width: 100%; /* 让两个项目占据整个宽度 */
