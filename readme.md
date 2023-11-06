@@ -11,6 +11,7 @@ My Figma Project - [here](https://www.figma.com/proto/zdvHG3Abqqt2mcHAShyULf/Unt
 GitHub Pages: 
 - first page - [here](./docs/index.html)
 - second page - [here](./docs/index2.html)
+[here](https://nani1345.github.io/nani-midterm-1103/index.html#section-home)
 
 
 Github reporsitory-https://github.com/Nani1345/nani-midterm-1103.git

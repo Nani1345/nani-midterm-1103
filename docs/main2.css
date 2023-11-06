@@ -56,7 +56,7 @@ p{
 
 
 .content{
-    background: url(../images/face.png) no-repeat;
+    background: url(../docs/images/face.png) no-repeat;
     background-position: left;
     /* background-size: contain; */
     display:flex;
